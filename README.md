@@ -1,4 +1,4 @@
-#HACKTOBERFEST  2022 : Start Your First Contribution - Win Free  T-Shirt
+# HACKTOBERFEST  2022 : Start Your First Contribution - Win Free  T-Shirt
 
 ![image](https://user-images.githubusercontent.com/115712308/195660220-1f36febb-c072-4bb8-aaa8-104a73ab8b9b.png)
 
@@ -24,21 +24,21 @@ By contributing to this project, you adhere to this project's code of conduct. T
 * Your code supports all the web browsers.
 * Do not spam.
 
-How to Contribute:
-Fork this Repository using the button at the top on right corner.
-Clone your forked repository to your pc ( git clone "url from clone option".)
-Open the folder in the code editor of your choice and make the changes.
-Stage the changes
- git add .
-Commit the changes
-git commit -m "Your commit message here”
+## How to Contribute :
+* Fork this Repository using the button at the top on right corner.
+* Clone your forked repository to your pc ( git clone "url from clone option".)
+* Open the folder in the code editor of your choice and make the changes.
+* Stage the changes
+  git add .
+* Commit the changes
+  git commit -m "Your commit message here”
  
-Push the changes to github
- git push
+* Push the changes to github
+  git push
  
 Once you have successfully pushed the project, open GitHub and click on the dropdown next to Contribute and click on Open pull request.
 After that, write a message and a comment (optional). Then click on Create pull request.
-Create Pull Request
+## Create Pull Request
 At this point, you are ready to make a pull request to the original repository.
 Navigate to your forked repository, and press the “New pull request” button on your left-hand side of your Repo page.
 
