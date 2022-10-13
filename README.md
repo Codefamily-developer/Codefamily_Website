@@ -36,10 +36,10 @@ By contributing to this project, you adhere to this project's code of conduct. T
 * Push the changes to github
   git push
  
-Once you have successfully pushed the project, open GitHub and click on the dropdown next to Contribute and click on Open pull request.
-After that, write a message and a comment (optional). Then click on Create pull request.
+Once you have successfully pushed the project, open GitHub and click on the dropdown next to Contribute and click on Open pull request.</br>
+After that, write a message and a comment (optional). Then click on Create pull request.</br>
 ## Create Pull Request
-At this point, you are ready to make a pull request to the original repository.
+At this point, you are ready to make a pull request to the original repository.</br>
 Navigate to your forked repository, and press the “New pull request” button on your left-hand side of your Repo page.
 
 
