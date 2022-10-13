@@ -9,7 +9,7 @@
 📢Register [here](https://hacktoberfest.com/)for Hacktoberfest and make four pull requests (PRs) between October 1st-31st to grab free SWAGS 🔥.**
 
 
-Contributions are always welcome!
+Contributions are always welcome!</br>
 Make sure you have followed me on GitHub and starred this repository. Although this is not mandatory, doing so really motivates me to keep making more awesome content.
 
  **Contribution  Guidelines:**
