@@ -5,7 +5,7 @@
 
 **This project is perfect for your first Pull Request**
 
-**🗣 Hacktoberfest give a chance to  participated in the open source community, which grows every year. Complete the challenge and earn Swags
+**🗣 Hacktoberfest give a chance to  participated in the open source community, which grows every year. Complete the challenge and earn Swags</br>
 📢Register [here](https://hacktoberfest.com/)for Hacktoberfest and make four pull requests (PRs) between October 1st-31st to grab free SWAGS 🔥.**
 
 
