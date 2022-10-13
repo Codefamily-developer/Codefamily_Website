@@ -3,9 +3,9 @@
 ![image](https://user-images.githubusercontent.com/115712308/195660220-1f36febb-c072-4bb8-aaa8-104a73ab8b9b.png)
 
 
-**This project is perfect for your first Pull Request
+**This project is perfect for your first Pull Request**
 
-🗣 Hacktoberfest give a chance to  participated in the open source community, which grows every year. Complete the challenge and earn Swags
+**🗣 Hacktoberfest give a chance to  participated in the open source community, which grows every year. Complete the challenge and earn Swags
 📢 Register here for Hacktoberfest and make four pull requests (PRs) between October 1st-31st to grab free SWAGS 🔥.**
 
 
