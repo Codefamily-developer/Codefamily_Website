@@ -1,4 +1,4 @@
-##HACKTOBERFEST  2022 : Start Your First Contribution - Win Free  T-Shirt
+#HACKTOBERFEST  2022 : Start Your First Contribution - Win Free  T-Shirt
 
 ![image](https://user-images.githubusercontent.com/115712308/195660220-1f36febb-c072-4bb8-aaa8-104a73ab8b9b.png)
 
@@ -15,14 +15,14 @@ Make sure you have followed me on GitHub and starred this repository. Although t
  **Contribution  Guidelines:**
  
 By contributing to this project, you adhere to this project's code of conduct. They are as follows:
-*Your code must be properly formatted.
-*The code you contribute must be your own.
-*Your code must be error- and bug-free.
+* Your code must be properly formatted.
+ *The code you contribute must be your own.
+* Your code must be error- and bug-free.
 *The file structure must be proper. You must write the code for a particular language in that particular folder. For example, write HTML code in the HMTL folder and CSS code in the CSS folder, etc.
-*Make sure you have the comment in code.
-*Make sure you exclude the auto-generated files by adding them in .gitignore.
-*Your code supports all the web browsers.
-*Do not spam.
+* Make sure you have the comment in code.
+* Make sure you exclude the auto-generated files by adding them in .gitignore.
+* Your code supports all the web browsers.
+* Do not spam.
 
 How to Contribute:
 Fork this Repository using the button at the top on right corner.
