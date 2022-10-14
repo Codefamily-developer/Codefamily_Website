@@ -1,276 +1,432 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <title>Codefamily</title>
-        <link rel="icon" type="image/x-icon" href="images/logo2.png" />
+  <head>
+    <meta charset="utf-8" />
+    <title>Codefamily</title>
+    <link rel="icon" type="image/x-icon" href="images/logo2.png" />
 
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;900&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;900&family=Ubuntu:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
 
-        <!-- 
+    <!-- 
   <link rel="stylesheet" type="text/css" href="css\styles.css"> -->
 
-        <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-        <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"
+    ></script>
 
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
 
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
 
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
 
-        <style type="text/css">
-            #title {
-                background-color: white;
-                color: black;
-            }
+    <style type="text/css">
+      #title {
+        background-color: white;
+        color: black;
+      }
 
-            .container-fluid {
-                padding: 1% 10%;
-            }
+      .container-fluid {
+        padding: 1% 10%;
+      }
 
-            #h1 {
-                font-family: "Ubuntu";
-                font-size: 4.5rem;
-                line-height: 1.5;
-            }
+      #h1 {
+        font-family: "Ubuntu";
+        font-size: 4.5rem;
+        line-height: 1.5;
+      }
 
-            .navbar {
-                padding-bottom: 4.3rem;
-            }
+      .navbar {
+        padding-bottom: 4.3rem;
+      }
 
-            .navbar-brand {
-                font-family: "Ubuntu";
-                font-size: 2.3rem;
-                font-weight: bold;
-            }
+      .navbar-brand {
+        font-family: "Ubuntu";
+        font-size: 2.3rem;
+        font-weight: bold;
+      }
 
-            .nav-item {
-                padding: 0 18px;
-                color: #5747e3;
-            }
+      .nav-item {
+        padding: 0 18px;
+        color: #5747e3;
+      }
 
-            .nav-link {
-                font-size: 1.3rem;
-                color: #5747e3;
-            }
+      .nav-link {
+        font-size: 1.3rem;
+        color: #5747e3;
+      }
 
-            .title-img {
-                width: 50%;
-                position: absolute;
-            }
+      .title-img {
+        width: 50%;
+        position: absolute;
+      }
 
-            #features {
-                padding: 7% 15%;
-                background-color: white;
-                position: relative;
-                z-index: 1;
-            }
+      #features {
+        padding: 7% 15%;
+        background-color: white;
+        position: relative;
+        z-index: 1;
+      }
 
-            .feature-item {
-                text-align: center;
-                padding: 5%;
-            }
+      .feature-item {
+        text-align: center;
+        padding: 5%;
+      }
 
-            p {
-                color: grey;
-            }
+      p {
+        color: grey;
+      }
 
-            #footer {
-                background-color: #14141f;
-                padding: 7% 1%;
-                text-align: left;
-            }
+      #footer {
+        background-color: #14141f;
+        padding: 7% 1%;
+        text-align: left;
+      }
 
-            .fimg {
-                width: 40%;
-            }
+      .fimg {
+        width: 40%;
+      }
 
-            .blog {
-                font-size: 1.3rem;
-            }
+      .blog {
+        font-size: 1.3rem;
+      }
 
-            h6 {
-                color: white;
-                font-size: 1.3rem;
-            }
+      h6 {
+        color: white;
+        font-size: 1.3rem;
+      }
 
-            .tp1 {
-                color: red;
-            }
-            #footer {
-                background-color: #14141f;
-                padding: 7% 1%;
-                text-align: left;
-            }
-            .fimg {
-                width: 15%;
-            }
-            .blog {
-                font-size: 1.3rem;
-            }
-            h6 {
-                color: white;
-                font-size: 1.3rem;
-            }
-            .simg {
-                width: 5%;
-                margin-right: 10px;
-                padding-top: 20px;
-                cursor: pointer;
-            }
-            dl {
-                color: white;
-                text-align: left;
-                font-size: 1.2rem;
-                cursor: pointer;
-            }
-            dt {
-                padding-bottom: 20px;
-            }
-            /*.cf{
+      .tp1 {
+        color: red;
+      }
+      #footer {
+        background-color: #14141f;
+        padding: 7% 1%;
+        text-align: left;
+        overflow: hidden;
+      }
+      .fimg {
+        width: 15%;
+      }
+      .blog {
+        font-size: 1.3rem;
+      }
+      h6 {
+        color: white;
+        font-size: 1.3rem;
+      }
+      .simg {
+        width: 5%;
+        margin-right: 10px;
+        padding-top: 20px;
+        cursor: pointer;
+      }
+      dl {
+        color: white;
+        text-align: left;
+        font-size: 1.2rem;
+        cursor: pointer;
+      }
+      dt {
+        padding-bottom: 20px;
+      }
+      /*.cf{
          padding-left: 13%;
          }*/
-            #ft {
-                color: white;
-                text-align: left;
-                margin-left: 0%;
-            }
-            #ft span {
-                color: #5747e3;
-            }
-            .row1 {
-                margin-left: 12%;
-            }
+      #ft {
+        color: white;
+        text-align: left;
+        margin-left: 0%;
+      }
+      #ft span {
+        color: #5747e3;
+      }
+      .row1 {
+        margin-left: 12%;
+      }
 
-            @media (max-width: 1028px) {
-                #title {
-                    text-align: center;
-                }
+      @media (max-width: 1028px) {
+        #title {
+          text-align: center;
+        }
 
-                .title-img {
-                    position: static;
-                    transform: rotate(0);
-                }
-            }
-        </style>
-    </head>
+        .title-img {
+          position: static;
+          transform: rotate(0);
+        }
+      }
+      @media (max-width: 990px) {
+        p {
+          font-size: 1.5rem;
+        }
 
-    <body>
-        <section id="title">
-            <div class="container-fluid">
-                <!-- Nav Bar -->
+        .footer-div {
+          display: flex;
+          flex-direction: column;
+          margin: 0 !important;
+        }
+        .inner-footer-div {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          /* text-align: center; */
+        }
+        .fimg {
+          width: 20%;
+        }
+        #ft {
+          text-align: center;
+          padding: 2% 0 4% 0;
+        }
 
-                <nav class="navbar navbar-expand-lg navbar-dark">
-                    <a class="navbar-brand" href="" style="color: #5747e3;">Codefamily</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#footer" style="color: #5747e3;">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#pricing" style="color: #5747e3;">Blog</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#cta" style="color: #5747e3;">Community</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
+        .inner-footer-div > dl > dt {
+          font-size: 2rem;
+          padding-bottom: 4%;
+        }
+        dd {
+          text-align: center;
+          font-size: 1.5rem;
+        }
+        .inner-footer-div > h6 {
+          padding-top: 4%;
+          font-size: 1.5rem;
+        }
+        .inner-socials {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 100%;
+        }
+        .simg {
+          width: 6%;
+          padding: 2% 1% 0 1%;
+        }
+      }
+    </style>
+  </head>
 
-                <!-- Title -->
+  <body>
+    <section id="title">
+      <div class="container-fluid">
+        <!-- Nav Bar -->
 
-                <div class="row">
-                    <div class="col-lg-2">
-                        <img class="title-img" src="blog/nft2.png" alt="iphone-mockup" />
-                    </div>
-                    <div class="col-lg-10">
-                        <h1 id="h1">Non-Fungible Token (NFT)</h1>
-                    </div>
-                </div>
-                <br />
-                <br />
-                <br />
-            </div>
-        </section>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="" style="color: #5747e3">Codefamily</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            style="background-color: #5747e3; color: white"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="about.html" style="color: #5747e3"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html" style="color: #5747e3"
+                  >Blog</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer" style="color: #5747e3"
+                  >Community</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
 
-        <!--   blog -->
+        <!-- Title -->
 
-        <section style="padding: 0% 10%;">
-            <div class="row">
-                <div class="feature-item col-lg-12">
-                    <p class="blog" style="text-align: left;">
-                        Non fungible tokens (NFT) are digital assets that represent ownership rights over physical goods. NFTs are similar to cryptocurrencies, but they have some unique characteristics. Unlike cryptocurrencies, NFTs cannot
-                        be mined; instead, they are created by users who purchase them. Users can then sell their NFTs to others or trade them with each other.
-                        <br />
-                        Non-Fungible Token (NFT) is a type of digital asset that represents ownership of physical assets. NFTs are similar to collectibles, such as baseball cards or vinyl records. However, they differ in that they represent
-                        something unique, rather than just being a representation of some object.
-                        <br />
-                        For example, if I own a house, I could sell my house NFT to someone else. That would mean that I am selling my house, not just a piece of paper that says “I own a house”. In addition to representing ownership of real
-                        world assets, NFTs can also represent ownership of virtual items, such as game characters, online avatars, or even virtual currencies.
-                        <br />
-                        The first use case for NFTs was the CryptoKitties project, where people bought and sold cats using Ethereum blockchain technology.
-                        <br />
-                        CryptoKitties was created by Brian Hoffman, who wanted to create a decentralized application (DApp) that allowed users to buy and sell virtual pets. He initially started working on the idea in 2014, and launched his
-                        first version of the app in December 2017.
-                        <br />
-                        CryptoKitty's success led to the creation of many other DApps, including Augur, OpenSea, and Gnosis. Non-Fungible Token (NFT) is a type of digital asset that represents ownership rights of physical assets. NFTs are
-                        unique tokens that represent ownership of specific items or objects. These items may include collectibles, games, real estate, works of art, etc.
-                        <br />
-                        The value of these assets is derived from their scarcity and/or uniqueness. In order to use them, users need to have access to a blockchain platform where they can interact with the NFTs.
-                        <br />
-                        In general, NFTs are created using smart contracts. A smart contract is a computer protocol intended to digitally facilitate, verify, or enforce the negotiation or performance of a contract, agreement, arrangement,
-                        transaction, or obligation between two parties.
-                        <br />
-                        A smart contract is a set of rules embedded in code that define the terms of the interaction between two parties. Once the conditions of the contract are met, the smart contract executes automatically. Smart
-                        contracts provide trustless, transparent, tamperproof, and cost-effective solutions to contractual agreements. For example, let's say I want to sell my car to you. We agree upon the price and then we both sign a
-                        smart contract. Now, if either party tries to cheat the system, the smart contract will detect it and stop the transaction.
-                        <br />
-                        This is just one simple example of how NFTs work. There are many different types of NFTs including collectibles, gaming items, virtual goods, and even real world assets.
-                    </p>
-                </div>
-            </div>
-        </section>
+        <div class="row">
+          <div class="col-lg-2">
+            <img class="title-img" src="blog/nft2.png" alt="iphone-mockup" />
+          </div>
+          <div class="col-lg-10">
+            <h1 id="h1">Non-Fungible Token (NFT)</h1>
+          </div>
+        </div>
+        <br />
+        <br />
+        <br />
+      </div>
+    </section>
 
-        <!-- Footer -->
-        <footer id="footer">
-            <div class="row row1">
-                <div class="cf col-lg-5 col-md-3 col-sm-6 col-10" style="text-align: left;">
-                    <img class="fimg" src="images/tcf.png" alt="iphone-mockup" />
-                    <h6>Codefamily</h6>
-                    <p id="ft">
-                        <span>Join Codefamily Student Community 😃,</span>an initiative<br />
-                        to build India's strongest student community.Here<br />
-                        you will get discussions, job alerts, free courses,<br />
-                        materials, and lots more.
-                    </p>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 col-11">
-                    <dl>
-                        <dt>Company</dt>
-                        <dd onclick="window.open('about.html', '_blank');">About</dd>
-                        <dd onclick="window.open('blog.html', '_blank');">Blog</dd>
-                    </dl>
-                </div>
-                <div class="col-lg-4 col-md-3 col-sm-6 col-11">
-                    <h6>SOCIAL MEDIA</h6>
-                    <img class="simg" src="https://img.icons8.com/material-outlined/24/FFFFFF/instagram-new--v1.png" onclick="window.location.href='https://www.instagram.com/codefamily.official/'" />
-                    <img class="simg" src="https://img.icons8.com/ios-glyphs/30/FFFFFF/youtube-play.png" onclick="window.location.href='https://www.youtube.com/channel/UCX1zti_toZElVyFPfwjwwZw'" />
-                    <img class="simg" src="https://img.icons8.com/ios-filled/50/FFFFFF/linkedin.png" onclick="window.location.href='https://www.linkedin.com/company/codefamily1'" />
-                    <img class="simg" src="https://img.icons8.com/ios-glyphs/30/FFFFFF/discord-logo.png" onclick="window.location.href='https://discord.gg/REg3ZdH4S4'" />
-                    <img class="simg" src="https://img.icons8.com/ios-filled/50/FFFFFF/twitter.png" onclick="window.location.href='https://twitter.com/codefamily1" />
-                    <img class="simg" src="https://img.icons8.com/ios-filled/50/FFFFFF/facebook-new.png" onclick="window.location.href='https://www.instagram.com/codefamily.official/'" />
-                </div>
-            </div>
-            <p style="text-align: center; margin-top: 20px;">© Copyright Codefamily</p>
-        </footer>
-    </body>
+    <!--   blog -->
+
+    <section style="padding: 0% 10%">
+      <div class="row">
+        <div class="feature-item col-lg-12">
+          <p class="blog" style="text-align: left">
+            Non fungible tokens (NFT) are digital assets that represent
+            ownership rights over physical goods. NFTs are similar to
+            cryptocurrencies, but they have some unique characteristics. Unlike
+            cryptocurrencies, NFTs cannot be mined; instead, they are created by
+            users who purchase them. Users can then sell their NFTs to others or
+            trade them with each other.
+            <br />
+            Non-Fungible Token (NFT) is a type of digital asset that represents
+            ownership of physical assets. NFTs are similar to collectibles, such
+            as baseball cards or vinyl records. However, they differ in that
+            they represent something unique, rather than just being a
+            representation of some object.
+            <br />
+            For example, if I own a house, I could sell my house NFT to someone
+            else. That would mean that I am selling my house, not just a piece
+            of paper that says “I own a house”. In addition to representing
+            ownership of real world assets, NFTs can also represent ownership of
+            virtual items, such as game characters, online avatars, or even
+            virtual currencies.
+            <br />
+            The first use case for NFTs was the CryptoKitties project, where
+            people bought and sold cats using Ethereum blockchain technology.
+            <br />
+            CryptoKitties was created by Brian Hoffman, who wanted to create a
+            decentralized application (DApp) that allowed users to buy and sell
+            virtual pets. He initially started working on the idea in 2014, and
+            launched his first version of the app in December 2017.
+            <br />
+            CryptoKitty's success led to the creation of many other DApps,
+            including Augur, OpenSea, and Gnosis. Non-Fungible Token (NFT) is a
+            type of digital asset that represents ownership rights of physical
+            assets. NFTs are unique tokens that represent ownership of specific
+            items or objects. These items may include collectibles, games, real
+            estate, works of art, etc.
+            <br />
+            The value of these assets is derived from their scarcity and/or
+            uniqueness. In order to use them, users need to have access to a
+            blockchain platform where they can interact with the NFTs.
+            <br />
+            In general, NFTs are created using smart contracts. A smart contract
+            is a computer protocol intended to digitally facilitate, verify, or
+            enforce the negotiation or performance of a contract, agreement,
+            arrangement, transaction, or obligation between two parties.
+            <br />
+            A smart contract is a set of rules embedded in code that define the
+            terms of the interaction between two parties. Once the conditions of
+            the contract are met, the smart contract executes automatically.
+            Smart contracts provide trustless, transparent, tamperproof, and
+            cost-effective solutions to contractual agreements. For example,
+            let's say I want to sell my car to you. We agree upon the price and
+            then we both sign a smart contract. Now, if either party tries to
+            cheat the system, the smart contract will detect it and stop the
+            transaction.
+            <br />
+            This is just one simple example of how NFTs work. There are many
+            different types of NFTs including collectibles, gaming items,
+            virtual goods, and even real world assets.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="footer-div row row1">
+        <div
+          class="inner-footer-div cf col-lg-5 col-md-12 col-sm-6 col-10"
+          style="text-align: left"
+        >
+          <img class="fimg" src="images/tcf.png" alt="iphone-mockup" />
+          <h6>Codefamily</h6>
+          <p id="ft">
+            <span>Join Codefamily Student Community 😃,</span>an initiative<br />
+            to build India's strongest student community.Here<br />
+            you will get discussions, job alerts, free courses,<br />
+            materials, and lots more.
+          </p>
+        </div>
+        <div class="inner-footer-div col-lg-3 col-md-12 col-sm-6 col-11">
+          <dl>
+            <dt>Company</dt>
+            <dd onclick="window.open('about.html', '_blank');">About</dd>
+            <dd onclick="window.open('blog.html', '_blank');">Blog</dd>
+          </dl>
+        </div>
+
+        <div class="inner-footer-div col-lg-4 col-md-12 col-sm-6 col-11">
+          <h6>SOCIAL MEDIA</h6>
+          <div class="inner-socials">
+            <img
+              class="simg"
+              src="https://img.icons8.com/material-outlined/24/FFFFFF/instagram-new--v1.png"
+              onclick="window.location.href='https://www.instagram.com/codefamily.official/'"
+            />
+            <img
+              class="simg"
+              src="https://img.icons8.com/ios-glyphs/30/FFFFFF/youtube-play.png"
+              onclick="window.location.href='https://www.youtube.com/channel/UCX1zti_toZElVyFPfwjwwZw'"
+            />
+            <img
+              class="simg"
+              src="https://img.icons8.com/ios-filled/50/FFFFFF/linkedin.png"
+              onclick="window.location.href='https://www.linkedin.com/company/codefamily1'"
+            />
+            <img
+              class="simg"
+              src="https://img.icons8.com/ios-glyphs/30/FFFFFF/discord-logo.png"
+              onclick="window.location.href='https://discord.gg/REg3ZdH4S4'"
+            />
+            <img
+              class="simg"
+              src="https://img.icons8.com/ios-filled/50/FFFFFF/twitter.png"
+              onclick="window.location.href='https://twitter.com/codefamily1'"
+            />
+            <img
+              class="simg"
+              src="https://img.icons8.com/ios-filled/50/FFFFFF/facebook-new.png"
+              onclick="window.location.href='https://www.instagram.com/codefamily.official/'"
+            />
+          </div>
+        </div>
+      </div>
+      <p style="text-align: center; margin-top: 40px; color: grey">
+        © Copyright Codefamily
+      </p>
+    </footer>
+  </body>
 </html>
