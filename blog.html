@@ -112,6 +112,8 @@ h2:hover{
   background-color: #14141f;
   padding: 7% 1%;
   text-align: left;
+  overflow: hidden;
+
 }
 
 .fimg{
@@ -163,6 +165,60 @@ dt{
 .row1{
   margin-left: 12%;
 }
+      @media (max-width: 990px)
+          { 
+.mid-section{
+  text-align: center;
+  padding-top: 3%;
+}
+         p{
+            font-size: 1.5rem;
+         }
+
+                  .footer-div{
+            display: flex;
+            flex-direction: column;
+            margin: 0 !important;
+          
+         }
+         .inner-footer-div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* text-align: center; */
+         }
+         .fimg{
+            width: 20%;
+         }
+         #ft{
+            text-align: center;
+            padding: 2% 0 4% 0;
+         }
+         
+      .inner-footer-div>dl>dt{
+         font-size: 2rem;
+         padding-bottom: 4%;
+      }
+dd{
+   text-align: center;
+   font-size: 1.5rem;
+}
+.inner-footer-div>h6{
+   padding-top: 4%;
+         font-size: 1.5rem;
+
+}
+.inner-socials{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+}
+.simg{
+   width: 6%;
+   padding: 2% 1% 0 1%;
+}
+      }
 
 </style>
 
@@ -171,14 +227,14 @@ dt{
 
 <body>
 
-  <section id="title" style="background-color: #5747e3">
+  <section id="title" style="background-color: #5747e3;margin-bottom: 6%;">
 
     <div class="container-fluid">
 
     <!-- Nav Bar -->
 
-    <nav class="navbar  navbar-expand-lg navbar-dark">
-    <a class="navbar-brand" href="index.html" style="color: white">Codefamily Blog</a>
+    <nav class="navbar  navbar-expand-lg navbar-dark" >
+    <a class="navbar-brand" href="index.html" style="color: white; ">Codefamily Blog</a>
 </nav> 
 
   </section>
@@ -192,7 +248,7 @@ dt{
         <img class="blog-img" src="blog/bbc.jpg" alt="codefamily" 
         onclick="window.open('blog1.html', '_blank');">
     </div>
-    <div class="col-lg-5">
+    <div class="col-lg-7 mid-section">
       <h2 onclick="window.open('blog1.html', '_blank');">What is Blockchain?</h2>
       <p>Blockchain technology is a decentralized database system that uses cryptography to secure data transactions...</p>
     </div>
@@ -200,9 +256,9 @@ dt{
 
     <div class="row">
       <div class="col-lg-5">
-        <img class="blog-img" src="blog/bnft.jpg" alt="codefamily">
+        <img class="blog-img" src="blog/bnft.jpg" alt="codefamily" onclick="window.open('blog4.html', '_blank');">
     </div>
-    <div class="col-lg-5">
+    <div class="col-lg-7 mid-section">
       <h2 onclick="window.open('blog4.html', '_blank');">What is Non-Fungible Token (NFT)</h2>
       <p>Learn, share and grow with like minded people.</p>
     </div>
@@ -210,9 +266,9 @@ dt{
 
     <div class="row">
       <div class="col-lg-5">
-        <img class="blog-img" src="blog/bai.jpg" alt="codefamily">
+        <img class="blog-img" src="blog/bai.jpg" alt="codefamily"onclick="window.open('blog3.html', '_blank');">
     </div>
-    <div class="col-lg-5">
+    <div class="col-lg-7 mid-section">
       <h2 onclick="window.open('blog3.html', '_blank');">What is Artificial Intelligence?</h2>
       <p>Artificial Intelligence (AI) is a branch of computer science dealing with the simulation of human thought processes..</p>
     </div>
@@ -220,9 +276,9 @@ dt{
 
     <div class="row">
       <div class="col-lg-5">
-        <img class="blog-img" src="blog/bgd.jpg" alt="codefamily">
+        <img class="blog-img" src="blog/bgd.jpg" alt="codefamily" onclick="window.open('blog6.html', '_blank');">
     </div>
-    <div class="col-lg-5">
+    <div class="col-lg-7 mid-section">
       <h2 onclick="window.open('blog6.html', '_blank');">What is graphic design?</h2>
       <p>Graphic design is a broad term that includes many different types of work. You may have heard people refer to web designers,</p>
     </div>
@@ -230,9 +286,10 @@ dt{
 
     <div class="row">
       <div class="col-lg-5">
-        <img class="blog-img" src="blog/bnlp.jpg" alt="codefamily">
+        <img class="blog-img" src="blog/bnlp.jpg" alt="codefamily"
+        onclick="window.open('blog5.html', '_blank');">
     </div>
-    <div class="col-lg-5">
+    <div class="col-lg-7 mid-section">
       <h2 onclick="window.open('blog5.html', '_blank');">What is Natural Language Processing (NLP)</h2>
       <p>Learn, share and grow with like minded people.</p>
     </div>
@@ -240,9 +297,10 @@ dt{
 
     <div class="row">
       <div class="col-lg-5">
-        <img class="blog-img" src="blog/bcc.jpg" alt="codefamily">
+        <img class="blog-img" src="blog/bcc.jpg" alt="codefamily"
+        onclick="window.open('blog2.html', '_blank');">
     </div>
-    <div class="col-lg-5">
+    <div class="col-lg-7 mid-section">
       <h2 onclick="window.open('blog2.html', '_blank');">What is Cloud Computing</h2>
       <p>Cloud computing provides computation, file storage, networking, and other services that do not require end-user ...</p>
     </div>
@@ -257,47 +315,36 @@ dt{
 
  <!-- Footer -->
 
-  <footer id="footer">
+      <footer id="footer">
+         <div class="footer-div row row1">
+            <div class="inner-footer-div cf col-lg-5 col-md-12 col-sm-6 col-10" style="text-align: left;">
+               <img class="fimg" src="images/tcf.png" alt="iphone-mockup">
+               <h6>Codefamily</h6>
+               <p id="ft"><span>Join Codefamily Student Community 😃,</span>an initiative<br> to build India's strongest student community.Here<br> you will get discussions, job alerts, free courses,<br> materials, and lots more.</p>
+            </div>
+            <div class="inner-footer-div col-lg-3 col-md-12 col-sm-6 col-11">
+               <dl>
+                  <dt>Company</dt>
+                  <dd onclick="window.open('about.html', '_blank');">About</dd>
+                  <dd onclick="window.open('blog.html', '_blank');">Blog</dd>
+               </dl>
+            </div>
+         
+            <div class="inner-footer-div col-lg-4 col-md-12 col-sm-6 col-11" >
+               <h6>SOCIAL MEDIA</h6>
+               <div class="inner-socials">
 
-    <div class="row row1">
-      <div class="cf col-lg-5 col-md-3 col-sm-6 col-10" style="text-align: left;">
-      <img class="fimg" src="images/tcf.png" alt="iphone-mockup">
-      <h6>Codefamily</h6>
-      <p id="ft"><span>Join Codefamily Student Community 😃,</span>an initiative<br> to build India's strongest student community.Here<br> you will get discussions, job alerts, free courses,<br> materials, and lots more.</p>
-    </div>
-
-    <div class="col-lg-3 col-md-3 col-sm-6 col-11">
-
-      <dl>
-        <dt>Company</dt>
-        <dd onclick="window.open('about.html', '_blank');">About</dd>
-        <dd onclick="window.open('blog.html', '_blank');">Blog</dd>
-      </dl>
-
-
-      
-    </div>
-        <div class="col-lg-4 col-md-3 col-sm-6 col-11" >
-        <h6>SOCIAL MEDIA</h6>
-        <img class="simg" src="https://img.icons8.com/material-outlined/24/FFFFFF/instagram-new--v1.png" onclick="window.location.href='https://www.instagram.com/codefamily.official/'"/>
-
-        <img class="simg" src="https://img.icons8.com/ios-glyphs/30/FFFFFF/youtube-play.png" onclick="window.location.href='https://www.youtube.com/channel/UCX1zti_toZElVyFPfwjwwZw'"/>
-
-        <img class="simg" src="https://img.icons8.com/ios-filled/50/FFFFFF/linkedin.png" onclick="window.location.href='https://www.linkedin.com/company/codefamily1'"/>
-
-        <img class="simg" src="https://img.icons8.com/ios-glyphs/30/FFFFFF/discord-logo.png" onclick="window.location.href='https://discord.gg/REg3ZdH4S4'"/>
-
-        <img class="simg" src="https://img.icons8.com/ios-filled/50/FFFFFF/twitter.png" onclick="window.location.href='https://twitter.com/codefamily1"/>
-
-        <img class="simg" src="https://img.icons8.com/ios-filled/50/FFFFFF/facebook-new.png" onclick="window.location.href='https://www.instagram.com/codefamily.official/'"/>
-
-    </div>
-  </div>
-
-    <p style="text-align: center;margin-top: 20px;" > © Copyright Codefamily</p>
-
-  </footer>
-
+                  <img class="simg" src="https://img.icons8.com/material-outlined/24/FFFFFF/instagram-new--v1.png" onclick="window.location.href='https://www.instagram.com/codefamily.official/'"/>
+                  <img class="simg" src="https://img.icons8.com/ios-glyphs/30/FFFFFF/youtube-play.png" onclick="window.location.href='https://www.youtube.com/channel/UCX1zti_toZElVyFPfwjwwZw'"/>
+               <img class="simg" src="https://img.icons8.com/ios-filled/50/FFFFFF/linkedin.png" onclick="window.location.href='https://www.linkedin.com/company/codefamily1'"/>
+               <img class="simg" src="https://img.icons8.com/ios-glyphs/30/FFFFFF/discord-logo.png" onclick="window.location.href='https://discord.gg/REg3ZdH4S4'"/>
+               <img class="simg" src="https://img.icons8.com/ios-filled/50/FFFFFF/twitter.png" onclick="window.location.href='https://twitter.com/codefamily1'"/>
+               <img class="simg" src="https://img.icons8.com/ios-filled/50/FFFFFF/facebook-new.png" onclick="window.location.href='https://www.instagram.com/codefamily.official/'"/>
+            </div>
+         </div>
+         </div>
+         <p style="text-align: center;margin-top: 40px; color: grey;" > © Copyright Codefamily</p>
+      </footer>
 </body>
 
 </html>
