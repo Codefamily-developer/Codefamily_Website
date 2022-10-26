@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Codefamily</title>
+    <link rel="icon" type="image/x-icon" href="images/logo2.png" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;900&family=Ubuntu:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    
+    <meta name="title" content="Codefamily Community">
+     <meta name="description"
+       content="Decentralized finance is an unbundling of traditional finance, DeFi takes the key elements of the work done by banks, exchanges and insurers today—like lending, borrowing and trading—and puts it in the hands of regular people.">
+     <meta name="keywords" content="codefamily,code,blockchain,codefamily community,what is Decentralised Finance,learn defi,what is defi">
+     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+     <meta name="language" content="English">
+     <meta name="author" content="Code Family">
+
+    <!-- 
+  <link rel="stylesheet" type="text/css" href="css\styles.css"> -->
+
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"
+    ></script>
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <style type="text/css">
+      #title {
+        background-color: white;
+        color: black;
+      }
+
+      .container-fluid {
+        background-image: linear-gradient(
+          to bottom,
+          #e2dff8,
+          #dee5fc,
+          #dcebfe,
+          #dcf0ff,
+          #def5ff
+        );
+        padding: 1% 10%;
+      }
+
+      .bolded{
+        font-size: 3rem;
+        font-weight: bold;
+      }
+      #h1 {
+        font-family: "Ubuntu";
+        font-size: 4.5rem;
+        line-height: 1.5;
+      }
+
+      .navbar {
+        padding-bottom: 4.3rem;
+      }
+
+      .navbar-brand {
+        font-family: "Ubuntu";
+        font-size: 2.3rem;
+        font-weight: bold;
+      }
+
+      .nav-item {
+        padding: 0 18px;
+        color: #5747e3;
+      }
+
+      .nav-item a:hover{
+        box-shadow: 0 5px 0 #5747e3;
+      }
+
+      .nav-link {
+        font-size: 1.3rem;
+        color: #5747e3;
+      }
+
+      .title-img {
+        width: 100%;
+        position: absolute;
+      }
+
+      #features {
+        padding: 7% 15%;
+        background-color: white;
+        position: relative;
+        z-index: 1;
+      }
+
+      .feature-item {
+        text-align: center;
+        padding: 5%;
+      }
+
+      p {
+        color: grey;
+      }
+
+      #footer {
+        background-color: #14141f;
+        padding: 7% 1%;
+        text-align: left;
+        overflow: hidden;
+      }
+
+      .fimg {
+        width: 15%;
+      }
+
+      .blog {
+        font-size: 1.3rem;
+      }
+
+      h6 {
+        color: white;
+        font-size: 1.3rem;
+      }
+
+      .tp1 {
+        color: red;
+      }
+      #footer {
+        background-color: #14141f;
+        padding: 7% 1%;
+        text-align: left;
+      }
+      .fimg {
+        width: 15%;
+      }
+      .blog {
+        font-size: 1.3rem;
+      }
+      h6 {
+        color: white;
+        font-size: 1.3rem;
+      }
+      .simg {
+        width: 5%;
+        margin-right: 10px;
+        padding-top: 20px;
+        cursor: pointer;
+      }
+      dl {
+        color: white;
+        text-align: left;
+        font-size: 1.2rem;
+        cursor: pointer;
+      }
+      dt {
+        padding-bottom: 20px;
+      }
+      /*.cf{
+         padding-left: 13%;
+         }*/
+      #ft {
+        color: white;
+        text-align: left;
+        margin-left: 0%;
+      }
+      #ft span {
+        color: #5747e3;
+      }
+      .row1 {
+        margin-left: 12%;
+      }
+      
+      @media (max-width: 1028px) {
+        #title {
+          text-align: center;
+        }
+
+        .title-img {
+          position: static;
+          transform: rotate(0);
+        }
+
+        .row1 {
+          margin-left: 2%;
+        }
+
+        .simg {
+          width: 5%;
+          margin-right: 0px;
+        }
+      }
+      @media (max-width: 990px) {
+        p {
+          font-size: 1.5rem;
+        }
+
+        .footer-div {
+          display: flex;
+          flex-direction: column;
+          margin: 0 !important;
+        }
+        .inner-footer-div {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          /* text-align: center; */
+        }
+        .fimg {
+          width: 20%;
+        }
+        #ft {
+          text-align: center;
+          padding: 2% 0 4% 0;
+        }
+
+        .inner-footer-div > dl > dt {
+          font-size: 2rem;
+          padding-bottom: 4%;
+        }
+        dd {
+          text-align: center;
+          font-size: 1.5rem;
+        }
+        .inner-footer-div > h6 {
+          padding-top: 4%;
+          font-size: 1.5rem;
+        }
+        .inner-socials {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 100%;
+        }
+        .simg {
+          width: 6%;
+          padding: 2% 1% 0 1%;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <section id="title">
+      <div class="container-fluid">
+        <!-- Nav Bar -->
+
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="" style="color: #5747e3">Codefamily</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            style="background-color: #5747e3; color: white"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="about.html" style="color: #5747e3"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html" style="color: #5747e3"
+                  >Blog</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer" style="color: #5747e3"
+                  >Community</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <!-- Title -->
+
+        <div class="row">
+          <div class="col-lg-2">
+            <img
+              class="title-img"
+              src="blog/defi.jpg"
+              alt="iphone-mockup"
+            />
+          </div>
+          <div class="col-lg-6">
+            <h1 id="h1">Decentralised Finance</h1>
+          </div>
+        </div>
+        <br />
+        <br />
+        <br />
+      </div>
+    </section>
+
+    <!--   blog -->
+
+    <section style="padding: 0% 10%">
+      <div class="row">
+        <div class="feature-item col-lg-12">
+          <p class="blog" style="text-align: left">
+            Decentralized finance, also known as DeFi, uses cryptocurrency and blockchain technology to manage financial transactions. DeFi aims to democratize finance by replacing legacy, centralized institutions with peer-to-peer relationships that can provide a full spectrum of financial services, from everyday banking, loans and mortgages, to complicated contractual relationships and asset trading.
+<br/>
+<br/>
+
+<h1>Centralized Finance Today</h1>
+<hr>
+<br/>
+Today, almost every aspect of banking, lending and trading is managed by centralized systems, operated by governing bodies and gatekeepers. Regular consumers need to deal with a raft of financial middlemen to get access to everything from auto loans and mortgages to trading stocks and bonds.
+<br/>
+<br/>
+In the U.S., regulatory bodies like the Federal Reserve and Securities and Exchange Commission (SEC) set the rules for the world of centralized financial institutions and brokerages, and Congress amends the rules over time.
+<br/>
+As a result, there are few paths for consumers to access capital and financial services directly. They cannot bypass middlemen like banks, exchanges and lenders, who earn a percentage of every financial and banking transaction as profit. We all have to pay to play.
+<br/>
+<br/>
+
+
+<h1>The New Way: Decentralized Finance</h1>
+<hr>
+<br/>
+
+DeFi challenges this centralized financial system by disempowering middlemen and gatekeepers, and empowering everyday people via peer-to-peer exchanges.
+<br/>
+
+“Decentralized finance is an unbundling of traditional finance,” says Rafael Cosman, CEO and co-founder of TrustToken. “DeFi takes the key elements of the work done by banks, exchanges and insurers today—like lending, borrowing and trading—and puts it in the hands of regular people.”
+<br>
+
+Here’s how that might play out. Today, you might put your savings in an online savings account and earn a 0.50% interest rate on your money. The bank then turns around and lends that money to another customer at 3% interest and pockets the 2.5% profit. With DeFi, people lend their savings directly to others, cutting out that 2.5% profit loss and earn the full 3% return on their money.
+
+You might think, “Hey, I already do this when I send my friends money with PayPal, Venmo or CashApp.” But you don’t. You still have to have a debit card or bank account linked to those apps to send funds, so these peer-to-peer payments are still reliant on centralized financial middlemen to work.
+<br/>
+<br>
+
+<h1> DeFi Runs on Blockchain </h1>
+<hr>
+<br>
+
+Blockchain and cryptocurrency are the core technologies that enable decentralized finance.
+<br>
+When you make a transaction in your conventional checking account, it’s recorded in a private ledger—your banking transaction history—which is owned and managed by a large financial institution. Blockchain is a decentralized, distributed public ledger where financial transactions are recorded in computer code.
+<br>
+When we say that blockchain is distributed, that means all parties using a DeFi application have an identical copy of the public ledger, which records each and every transaction in encrypted code. That secures the system by providing users with anonymity, plus verification of payments and a record of asset ownership that’s (nearly) impossible to alter by fraudulent activity.
+<br>
+When we say blockchain is decentralized, that means there is no middleman or gatekeeper managing the system. Transactions are verified and recorded by parties who use the same blockchain, through a process of solving complex math problems and adding new blocks of transactions to the chain.
+<br>
+Advocates of DeFi assert that the decentralized blockchain makes financial transactions secure and more transparent than the private, opaque systems employed in centralized finance.
+
+<br>
+<br>
+<h1>How DeFi Is Being Used Now ..</h1>
+<hr>
+<br>
+
+DeFI is making its way into a wide variety of simple and complex financial transactions. It’s powered by decentralized apps called “dapps,” or other programs called “protocols.” Dapps and protocols handle transactions in the two main cryptocurrencies, Bitcoin (BTC) and Ethereum (ETH).
+<br/>
+
+While Bitcoin is the more popular cryptocurrency, Ethereum is much more adaptable to a wider variety of uses, meaning much of the dapp and protocol landscape uses Ethereum-based code.
+<br/>
+
+Here are some of the ways dapps and protocols are already being used:
+<br/>
+<br/>
+
+ <h1>Traditional financial transactions:</h1>
+ <hr/>
+
+ <br>
+Anything from payments, trading securities and insurance, to lending and borrowing are already happening with DeFi.
+ <br>
+<strong>Decentralised exchanges (DEXs):</strong> Right now, most cryptocurrency investors use centralized exchanges like Coinbase or Gemini. DEXs facilitate peer-to-peer financial transactions and let users retain control over their money.
+<br>
+<strong>E-wallets:</strong> DeFi developers are creating digital wallets that can operate independently of the largest cryptocurrency exchanges and give investors access to everything from cryptocurrency to blockchain-based games.
+<br>
+<strong>Stable coins:</strong> While cryptocurrencies are notoriously volatile, stable coins attempt to stabilize their values by tying them to non-cryptocurrencies, like the U.S. dollar.
+<br>
+<strong>Yield harvesting:</strong> Dubbed the “rocket fuel” of crypto, DeFi makes it possible for speculative investors to lend crypto and potentially reap big rewards when the proprietary coins DeFi borrowing platforms pay them for agreeing to the loan appreciate rapidly.
+<br>
+<strong>Non-fungible tokens (NFTs):</strong> NFTs create digital assets out of typically non-tradable assets, like videos of slam dunks or the first tweet on Twitter. NFTs commodify the previously uncommodifiable.
+<br>
+<strong>Flash loans:</strong> These are cryptocurrency loans that borrow and repay funds in the same transaction. Sound counterintuitive? Here’s how it works: Borrowers have the potential to make money by entering into a contract encoded on the Ethereum blockchain—no lawyers needed—that borrows funds, executes a transaction and repays the loan instantly. If the transaction can’t be executed, or it’ll be at a loss, the funds automatically go back to the loaner. If you do make a profit, you can pocket it, minus any interest charges or fees. Think of flash loans as decentralized arbitrage.
+<br>
+
+The DeFi market gauges adoption by measuring what’s called locked value, which calculates how much money is currently working in different DeFi protocols. At present, the total locked value in DeFi protocols is nearly $43 billion.
+<br>
+
+Adoption of DeFi is powered by the omnipresent nature of blockchain: The same moment a dapp is encoded on the blockchain, it’s globally available. While most centralized financial instruments and technologies roll out slowly over time, governed by the respective rules and regulations of regional economies, dapps exist outside of these rules, increasing their potential reward—and also increasing their risks.
+<br>
+<br>
+
+
+<h2>Risks and Downsides of DeFi :</h2>
+<hr>
+DeFi is an emerging phenomenon that comes with many risks. As a recent innovation, decentralized finance has not been stress tested by long or widespread use. In addition, national authorities are taking a harder look at the systems it’s putting in place, with an eye toward regulation. Some of the other risks of DeFi include:
+
+<br>
+
+<strong>No consumer protections :</strong>  Defi has thrived in the absence of rules and regulations. But this also means users may have little recourse should a transaction go foul. In centralized finance, for instance, the Federal Deposit Insurance Corp. (FDIC) reimburses deposit account holders up to $250,000 per account, per institution if a bank fails. Moreover, banks are required by law to hold a certain amount of their capital as reserves, to maintain stability and cash you out of your account any time you need. No similar protections exist in DeFi.
+<br>
+<strong>Hackers are a threat:</strong> While a blockchain may be nearly impossible to alter, other aspects of DeFi are at large risk of being hacked, which can lead to funds theft or loss. All of decentralized finance’s potential use cases rely on software systems that are vulnerable to hackers.
+<br>
+<strong>Collateralization:</strong> Collateral is a thing of value used to secure a loan. When you get a mortgage, for instance, the loan is collateralized by the home you’re buying. Nearly all DeFi lending transactions require collateral equal to at least 100% of the value of the loan, if not more. These requirements vastly restrict who is eligible for many types of DeFi loans.
+<br>
+<strong>Private key requirements:</strong> With DeFi and cryptocurrency, you must secure the wallets used to store your cryptocurrency assets. Wallets are secured with private keys, which are long, unique codes known only to the owner of the wallet. If you lose a private key, you lose access to your funds—there is no way to recover a lost private key.
+<br>
+<br>
+
+<h2>How to Get Involved with DeFi</h2>
+<hr>
+If you’d like to learn more about DeFi in a hands-on way, here are a few ways to get started:
+
+<br>
+<strong>Get a Crypto Wallet</strong>
+“Start by setting up an Ethereum wallet like Metamask, then funding it with Ethereum,” says Cosman. “Self-custody wallets are your ticket to the world of DeFi, but make sure to save your public and private key. Lose these, and you won’t be able to get back into your wallet.”
+<br>
+
+<strong>Trade Digital Assets </strong>
+
+“I recommend trading a small amount of two assets on a decentralized exchange such as Uniswap,” says Doug Schwenk, chairman of Digital Asset Research. “Trying this exercise will help a crypto enthusiast understand the current landscape, but be prepared to lose everything while you’re learning which assets and platforms are best and how to manage risks.”
+<br>
+
+<strong>Look Into Stablecoins</strong> 
+An exciting way to try out DeFi without exposing oneself to the price swings of an underlying asset is to try out TrueFi, which offers competitive returns on stablecoins (AKA dollar-backed tokens, which aren’t subject to price movements.
+
+<br>
+The key to any foray into a new financial space is to start slow, stay humble and don’t get ahead of yourself. Keep in mind that digital assets traded in the cryptocurrency and DeFi worlds are fast-moving and there’s significant potential for loss.
+<br>
+<br>
+
+<h2> The Future of DeFi</h2>
+<hr>
+From taking out the middleman to turning basketball clips into digital assets with monetary value, DeFi’s future looks bright. That’s why people like Dan Simerman, head of financial relations at IOTA Foundation, a DeFi research and development group, see both the promise and potential of DeFi as far-reaching, even though it’s still in the infancy of its capabilities.
+Investors will soon have more independence, which will allow them to “deploy [assets] in creative ways that seem impossible today.
+<br>
+ DeFi also carries big implications for the big data sector as it matures to enable new ways to commodify data,
+But for all its promise, DeFi has a long road ahead, especially when it comes to uptake by the general public.
+<br>
+
+“The promise is there, It’s up to us to continue educating people about the potential, but we also need to keep working hard to build the tools that will allow people to see it for themselves.”
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="footer-div row row1">
+        <div
+          class="inner-footer-div cf col-lg-5 col-md-12 col-sm-6 col-10"
+          style="text-align: left"
+        >
+          <img class="fimg" src="images/tcf.png" alt="iphone-mockup" />
+          <h6>Codefamily</h6>
+          <p id="ft">
+            <span>Join Codefamily Student Community 😃,</span>an initiative<br />
+            to build India's strongest student community.Here<br />
+            you will get discussions, job alerts, free courses,<br />
+            materials, and lots more.
+          </p>
+        </div>
+        <div class="inner-footer-div col-lg-3 col-md-12 col-sm-6 col-11">
+          <dl>
+            <dt>Company</dt>
+            <dd onclick="window.open('about.html', '_blank');">About</dd>
+            <dd onclick="window.open('blog.html', '_blank');">Blog</dd>
+          </dl>
+        </div>
+
+        <div class="inner-footer-div col-lg-4 col-md-12 col-sm-6 col-11">
+          <h6>SOCIAL MEDIA</h6>
+          <div class="inner-socials">
+            <img
+              class="simg"
+              src="https://img.icons8.com/material-outlined/24/FFFFFF/instagram-new--v1.png"
+              onclick="window.location.href='https://www.instagram.com/codefamily.official/'"
+            />
+            <img
+              class="simg"
+              src="https://img.icons8.com/ios-glyphs/30/FFFFFF/youtube-play.png"
+              onclick="window.location.href='https://www.youtube.com/channel/UCX1zti_toZElVyFPfwjwwZw'"
+            />
+            <img
+              class="simg"
+              src="https://img.icons8.com/ios-filled/50/FFFFFF/linkedin.png"
+              onclick="window.location.href='https://www.linkedin.com/company/codefamily1'"
+            />
+            <img
+              class="simg"
+              src="https://img.icons8.com/ios-glyphs/30/FFFFFF/discord-logo.png"
+              onclick="window.location.href='https://discord.gg/REg3ZdH4S4'"
+            />
+            <img
+              class="simg"
+              src="https://img.icons8.com/ios-filled/50/FFFFFF/twitter.png"
+              onclick="window.location.href='https://twitter.com/codefamily1'"
+            />
+            <img
+              class="simg"
+              src="https://img.icons8.com/ios-filled/50/FFFFFF/facebook-new.png"
+              onclick="window.location.href='https://www.instagram.com/codefamily.official/'"
+            />
+          </div>
+        </div>
+      </div>
+      <p style="text-align: center; margin-top: 40px; color: grey">
+        © Copyright Codefamily
+      </p>
+    </footer>
+  </body>
+</html>
+
