@@ -1,12 +1,6 @@
-# HACKTOBERFEST  2022 : Start Your First Contribution - Win Free  T-Shirt
+**What is Code Family**
 
-![image](https://user-images.githubusercontent.com/115712308/195660220-1f36febb-c072-4bb8-aaa8-104a73ab8b9b.png)
-
-
-**This project is perfect for your first Pull Request**
-
-**🗣 Hacktoberfest give a chance to  participated in the open source community, which grows every year. Complete the challenge and earn Swags</br>
-📢Register [here](https://hacktoberfest.com/)for Hacktoberfest and make four pull requests (PRs) between October 1st-31st to grab free SWAGS 🔥.**
+The CodeFamily community is built for every student, We believe that every student can learn and grow here. We are providing an open-source platform where students can learn everything. To build a better career, students can showcase their work in an open source project, which provides a great way to build a resume.Learn and grow with the community.
 
 
 Contributions are always welcome!</br>
