@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# Code Family
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Table of contents
 
-## Available Scripts
+- [What is Code Family](#what-is-code-family)
+- [Contribution Guidelines](#contribution-guidelines)
+- [How to Contribute](#how-to-contribute)
+- [Create Pull Request](#create-pull-request)
 
-In the project directory, you can run:
+## What is Code Family
 
-### `npm start`
+The CodeFamily community is built for every student, We believe that every student can learn and grow here. We are providing an open-source platform where students can learn everything. To build a better career, students can showcase their work in an open-source project, which provides a great way to build a resume. Learn and grow with the community.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Contributions are always welcome!
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Make sure you have followed me on GitHub and starred in this repository. Although this is not mandatory, doing so really motivates me to keep making more awesome content.
 
-### `npm test`
+## Contribution Guidelines
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+By contributing to this project, you adhere to this project's code of conduct. They are as follows:
 
-### `npm run build`
+- Your code must be properly formatted.
+    \*The code you contribute must be your own.
+- Your code must be error- and bug-free.
+    \*The file structure must be proper. You must write the code for a particular language in that particular folder. For example, write HTML code in the HTML folder and CSS code in the CSS folder, etc.
+- Make sure you have the comment in code.
+- Make sure you exclude the auto-generated files by adding them in .gitignore.
+- Your code supports all the web browsers.
+- Do not spam.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## How to Contribute
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Fork this Repository using the button at the top in the right corner.
+- Clone your forked repository to your pc ( git clone "URL from clone option".)
+- Open the folder in the code editor of your choice and make the changes.
+- Stage the changes
+    `git add .`
+- Commit the changes
+    `git commit -m "Your commit message here”`
+- Push the changes to GitHub
+    `git push origin`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Once you have successfully pushed the project, open GitHub and click on the dropdown next to Contribute, and click on Open pull request.
 
-### `npm run eject`
+After that, write a message and a comment
+(optional). Then click on Create pull request.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Create Pull Request
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+At this point, you are ready to make a pull request to the original repository.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Navigate to your forked repository, and press the `"New pull request"` button on the left-hand side of your Repo page.
