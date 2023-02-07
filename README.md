@@ -62,4 +62,8 @@ Event Page
 
 [Codefamily events page (3).pdf](https://github.com/Codefamily-developer/Codefamily_Website/files/10678510/Codefamily.events.page.3.pdf)
 
+Assests
+
+[assests.zip](https://github.com/Codefamily-developer/Codefamily_Website/files/10678530/assests.zip)
+
 
