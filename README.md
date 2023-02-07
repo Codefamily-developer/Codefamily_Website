@@ -50,3 +50,16 @@ After that, write a message and a comment
 At this point, you are ready to make a pull request to the original repository.
 
 Navigate to your forked repository, and press the `"New pull request"` button on the left-hand side of your Repo page.
+
+
+Design 
+
+Main Page
+
+[Codefamily website design.pdf](https://github.com/Codefamily-developer/Codefamily_Website/files/10678505/Codefamily.website.design.pdf)
+
+Event Page
+
+[Codefamily events page (3).pdf](https://github.com/Codefamily-developer/Codefamily_Website/files/10678510/Codefamily.events.page.3.pdf)
+
+
