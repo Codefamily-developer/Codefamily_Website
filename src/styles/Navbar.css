@@ -35,12 +35,12 @@
 .navbar .navRight button{
     background-color: var(--text-color);
     color: var(--primary-color);
-    font-weight: bolder;
+    font-weight: bold;
     border: none;
     cursor: pointer;
     font-size: 1.20rem;
-    padding: 10px;
-    border-radius: 45px;
+    padding: 13px;
+    border-radius: 40px;
     margin: 1.5rem;
 }
 
