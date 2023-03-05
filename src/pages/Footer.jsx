@@ -13,12 +13,28 @@ import {
   // SlSocialFacebook,
 } from "react-icons/fa";
 import { IconContext } from "react-icons";
+import CooperationImage from "../assets/images/cooperation.jpg";
 export default function Footer() {
   return (
     <div className="main-footer">
       <IconContext.Provider
         value={{ style: { fontSize: "40px", color: "#fefafa" } }}
       >
+        <div className="mid-card">
+          <div className="partner-with-us">
+            <h1>Partner with us</h1>
+            {/* <div className="yellow-underline"></div> */}
+            <p>
+              Join us in building a supportive community for skill-building and
+              career advancement through events, hackathons, and open-source
+              projects.
+            </p>
+            <Link to={"cf.codefamily@gmail.com"}>cf.codefamily@gmail.com</Link>
+          </div>
+          <div className="mid-card-image">
+            <img src={CooperationImage} alt="" height="100" width={"100"} />
+          </div>
+        </div>
         <div className="main_header">
           <div className="footer">
             <div className="row1">

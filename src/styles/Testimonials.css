@@ -2,6 +2,7 @@
   width: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
+  margin-bottom: 75px;
 }
 
 .swiper-slide {
@@ -36,7 +37,7 @@
 }
 .testimonial-box .reviewer {
   display: flex;
-  
+
   align-items: center;
   margin-top: 20px;
   gap: 10px;
