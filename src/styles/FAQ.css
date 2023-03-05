@@ -1,0 +1,38 @@
+.faq {
+  text-align: left;
+  width: 75%;
+  margin-bottom: 40px;
+}
+.faq h1 {
+  font-size: 32px;
+  margin-bottom: 6px;
+}
+.faq-box {
+  background-color: #8b8eda;
+  display: flex;
+  height: 48px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+.faq-box input {
+  background-color: transparent;
+  border: none;
+  height: 100%;
+  outline: none;
+  caret-color: white;
+  color: white;
+  padding: 4px;
+  width: 80%;
+  font-size: 16px;
+}
+.faq-box input:hover {
+  background-color: transparent;
+  border: none;
+}
+
+.faq-boxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+}

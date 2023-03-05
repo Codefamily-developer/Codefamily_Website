@@ -1,70 +1,76 @@
-:root{
-    --primary-color: #101728;
-    --text-color: #ffffff; 
-    --secondary-color:#5c4ce4;
+:root {
+  --primary-color: #101728;
+  --text-color: #ffffff;
+  --secondary-color: #5c4ce4;
 }
 
-.main_header{
-    background-color: var(--primary-color);
+.main-footer {
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }
 
-.footer{
-    display: flex;
-    justify-content: space-evenly;
-    gap: 1rem;
+.main_header {
+  background-color: var(--primary-color);
 }
 
-.footer a{
-    text-decoration: none;
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
 }
 
-.footer h2{
-    margin-bottom: 20%;
-    font-size: 1.8rem;
-    color: var(--text-color);
+.footer a {
+  text-decoration: none;
 }
 
-.footer p{
-    margin-bottom: 25%;
-    font-size: 1.5rem;
-    color: whitesmoke;
-    opacity: 0.9;
+.footer h2 {
+  margin-bottom: 20%;
+  font-size: 1.8rem;
+  color: var(--text-color);
 }
 
-
-.row4 h2{
-    margin-bottom: 10%;
+.footer p {
+  margin-bottom: 25%;
+  font-size: 1.5rem;
+  color: whitesmoke;
+  opacity: 0.9;
 }
 
-.row4 p{
-    margin-bottom: 10%;
+.row4 h2 {
+  margin-bottom: 10%;
 }
 
-.line{
-    height: 1px;
-    width: 70%;
-    margin-left: 15%;
-    margin-top: 1%;
-    border: 2px solid white;
-    border-radius: 50px;
-    color: var(--text-color);
-    background-color: var(--text-color);
+.row4 p {
+  margin-bottom: 10%;
 }
 
-.social_icons{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2.5rem;
-    margin-top: 1.8%;
+.line {
+  height: 1px;
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 1%;
+  border: 2px solid white;
+  border-radius: 50px;
+  color: var(--text-color);
+  background-color: var(--text-color);
 }
 
-.copyright{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.2rem;
-    margin-top: 2.5%;
-    margin-bottom: 2%;
-    color: var(--text-color);
+.social_icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+  margin-top: 1.8%;
+}
+
+.copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  margin-top: 2.5%;
+  /* margin-bottom: 2%; */
+  color: var(--text-color);
 }
