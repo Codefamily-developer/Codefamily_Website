@@ -4,7 +4,7 @@
   padding: 40px 0;
 }
 .blogs_container .blog_heading {
-  font-size: 75px;
+  font-size: 60px;
   margin-left: 70px;
   margin-bottom: 30px;
 }
@@ -20,7 +20,6 @@
   border-radius: 20px;
   width: 30%;
 }
-
 
 .blog_data {
   padding: 20px;

@@ -1,0 +1,49 @@
+.events {
+  display: flex;
+  padding: 50px 100px 50px;
+  text-align: left;
+  /* justify-content: end; */
+  gap: 40px;
+  background: #0f1819;
+  width: 100%;
+}
+
+.eventQuote {
+  display: flex;
+  gap: 20px;
+  /* position: absolute; */
+  /* right: 20px; */
+}
+.eventQuote h2 {
+  font-weight: 400;
+}
+
+.event_data p {
+  font-weight: 700;
+}
+.event_data h1 {
+  font-size: 50px;
+}
+
+.events a {
+  background: linear-gradient(90deg, #5c4ce4, #9340ff);
+
+  outline: none;
+  border: none;
+  font-weight: 800;
+  color: #fff;
+  padding: 20px;
+  border-radius: 30px;
+  margin-top: 20px;
+}
+
+.event_quotes {
+  margin: 30px 0;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .events {
+    flex-direction: column;
+  }
+}

@@ -2,7 +2,8 @@
   display: flex;
   padding: 50px 100px 50px;
   text-align: left;
-  justify-content: end;
+    flex-wrap: wrap-reverse;
+  /* justify-content: end; */
   gap: 40px;
   background: #0f1819;
   width: 100%;
@@ -42,4 +43,13 @@
   color: #fff;
   padding: 20px;
   border-radius: 30px;
+}
+
+
+@media (max-width: 768px) {
+  .resources_container {
+    flex-direction: column;
+    margin: auto;
+    width: 80%;
+  }
 }
