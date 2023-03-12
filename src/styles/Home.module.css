@@ -56,14 +56,26 @@
     flex-direction: column;
     margin: 0 auto;
     width: 100%;
-    column-gap: 10px;
+    gap: 10px;
     outline: none;
     border: none;
-  justify-content: center;
+    align-items: center;
+  }
+
+  .buttons button:last-child{
+    margin-bottom: 15px;
+  }
+
+  .title {
+    width: 80;
+  }
+  .title h1 {
+    font-size: 42px;
   }
 
   .description {
     width: 80%;
     margin-bottom: 10px;
+    font-size: 22px;
   }
 }
