@@ -1,5 +1,9 @@
 import React from "react";
+import Blogs from "../components/Blogs";
+import Events from "../components/Events";
 import FAQ from "../components/FAQ";
+import Mission from "../components/Mission";
+import Resources from "../components/Resources";
 import SocialBox from "../components/SocialBox";
 import Testimonials from "../components/Testimonials";
 import "../styles/Home.css";
@@ -22,7 +26,10 @@ function Home() {
         <button>Join Now</button>
         <button>Events</button>
       </div>
-
+      <Mission />
+      <Resources />
+      <Blogs/>
+      <Events/>
       <SocialBox />
       <FAQ />
       <Testimonials />

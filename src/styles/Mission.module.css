@@ -1,0 +1,51 @@
+.mission_container {
+  background-color: #5c4ce4;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 40px 100px 40px;
+}
+
+.dream {
+  text-align: left;
+  display: flex;
+  gap: 50px;
+}
+
+.dream p {
+  font-size: 35px;
+  font-weight: bold;
+}
+.dream span {
+  font-size: 35px;
+  font-weight: bold;
+  color: #141210;
+}
+
+.dreamQuote {
+  flex: 1;
+  margin: auto 0;
+  padding-left: 40px;
+}
+.dreamImg {
+  flex: 1;
+  border-radius: 10px;
+  margin: auto 0;
+}
+.dreamImg img {
+  border-radius: 10px;
+  width: 70%;
+  height: 350px;
+}
+
+.striveQuote {
+  font-size: 35px;
+  padding: 100px;
+  font-weight: 300;
+}
+.striveQuote p {
+  font-weight: 200;
+}
+
+@media (max-width: 768px) {
+    
+}
