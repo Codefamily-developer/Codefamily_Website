@@ -4,6 +4,25 @@
   box-sizing: border-box;
 }
 
+html {
+  scrollbar-width: normal;
+  scrollbar-color: #5c4ce4 #0f1819;
+}
+
+html::-webkit-scrollbar {
+  width: 1vw;
+}
+html::-webkit-scrollbar-thumb {
+  background-color: #5c4ce4;
+}
+html::-webkit-scrollbar-track {
+  background-color: #0f1819;
+}
+html::-webkit-scrollbar-thumb:hover {
+  background-color: #6353f0;
+}
+
+
 .App {
   width: 100%;
   display: flex;
