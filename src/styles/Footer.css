@@ -132,3 +132,32 @@
 .mid-card-image {
   flex: 0.5;
 }
+
+@media (max-width: 768px) {
+  .mid-card {
+    width: 90%;
+    padding: 10px;
+    margin: 0 auto;
+    position: static;
+    flex-direction: column;
+  }
+
+  .mid-card-image {
+    display: none;
+  }
+
+  .footer {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .footer h2,
+  .footer p {
+    margin-bottom: 5%;
+  }
+  .social_icons {
+    flex-wrap: wrap;
+  }
+  .copyright {
+    flex-direction: column;
+  }
+}

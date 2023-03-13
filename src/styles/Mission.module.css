@@ -47,5 +47,35 @@
 }
 
 @media (max-width: 768px) {
-    
+  .mission_container {
+    padding: 20px 0;
+  }
+
+  .dream {
+    margin: 0 auto;
+    flex-direction: column;
+    width: 90%;
+  }
+  .dream p {
+    font-size: 22px;
+  }
+  .dream span {
+    font-size: 28px;
+  }
+
+  .dreamQuote {
+    margin: 0 auto;
+  }
+  
+  .dreamImg img {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .striveQuote {
+    width: 90%;
+    font-size: 28px;
+    padding: 20px 5px;
+    margin: 0 auto;
+  }
 }

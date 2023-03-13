@@ -43,12 +43,14 @@
   padding: 1rem;
   margin: 0 30px;
   width: 250px;
-  background-image: linear-gradient(90deg, #5c4ce4, #1d1966);
+  background-image: linear-gradient(90deg, #5c4ce4, #8c40fc);
   color: var(--text-color);
   border-radius: 35px;
   font-size: 25px;
   font-weight: bold;
   cursor: pointer;
+  outline: none;
+  border: none;
 }
 
 @media (max-width: 768px) {
@@ -62,7 +64,7 @@
     align-items: center;
   }
 
-  .buttons button:last-child{
+  .buttons button:last-child {
     margin-bottom: 15px;
   }
 

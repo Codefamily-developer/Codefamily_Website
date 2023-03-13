@@ -7,7 +7,7 @@
   font-size: 32px;
   margin-bottom: 6px;
 }
-.faq-box {
+.faq_box {
   background-color: #8b8eda;
   display: flex;
   height: 48px;
@@ -15,7 +15,7 @@
   justify-content: space-between;
   padding: 15px;
 }
-.faq-box input {
+.faq_box input {
   background-color: transparent;
   border: none;
   height: 100%;
@@ -26,13 +26,23 @@
   width: 80%;
   font-size: 16px;
 }
-.faq-box input:hover {
+.faq_box input:hover {
   background-color: transparent;
   border: none;
 }
 
-.faq-boxes {
+.faq_boxes {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 25px;
+}
+
+@media (max-width: 767px) {
+  .faq_boxes {
+    grid-template-columns: 1fr;
+  }
+  .faq h1 {
+    font-size: 40px;
+    margin-bottom: 6px;
+  }
 }

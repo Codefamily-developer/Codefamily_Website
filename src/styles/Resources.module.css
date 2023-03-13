@@ -2,7 +2,6 @@
   display: flex;
   padding: 50px 100px 50px;
   text-align: left;
-    flex-wrap: wrap-reverse;
   /* justify-content: end; */
   gap: 40px;
   background: #0f1819;
@@ -45,11 +44,26 @@
   border-radius: 30px;
 }
 
-
 @media (max-width: 768px) {
   .resources_container {
     flex-direction: column;
     margin: auto;
-    width: 80%;
+    width: 100%;
+    padding: 10px 20px;
+  }
+
+  .resources_data {
+    width: 100%;
+  }
+
+  .resources_container h1 {
+    font-size: 40px;
+  }
+  .resources_data p {
+    width: 100%;
+  }
+  .resources_container img {
+   width: 100%;
+   
   }
 }

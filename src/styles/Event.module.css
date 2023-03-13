@@ -46,4 +46,19 @@
   .events {
     flex-direction: column;
   }
+
+  .event_data {
+    order: -1;
+    width: 90%;
+    margin: 0 10%;
+  }
+
+  .eventImg img {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .events {
+    padding: 20px 0;
+  }
 }

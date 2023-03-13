@@ -29,3 +29,19 @@
 .blog_data h1 {
   font-weight: 500;
 }
+
+@media (max-width: 768px) {
+  .blogs_container .blog_heading {
+    font-size: 40px;
+  }
+
+  .blogs {
+    flex-direction: column;
+  }
+
+  .blog {
+    border-radius: 20px;
+    width: 80%;
+    margin: 0 auto;
+  }
+}
