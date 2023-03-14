@@ -1,0 +1,32 @@
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 150px;
+  background: linear-gradient(to bottom, #3f35aa, #1e1967);
+  width: 80%;
+  padding: 2rem;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.social h1 {
+  font-size: 48px;
+}
+.social .social_icons {
+  display: flex;
+  gap: 20px;
+}
+.social .social_icons .social_box {
+  background-color: #06002e;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .social {
+    flex-direction: column;
+    gap: 50px;
+  }
+}

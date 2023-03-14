@@ -1,0 +1,132 @@
+/* .navbar {
+  height: 115px;
+  background-color: var(--primary-color);
+  display: flex;
+  font-weight: bold;
+  font-size: 1.4rem;
+  position: relative;
+  justify-content: space-between;
+} */
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 75px;
+  background-color: var(--primary-color);
+}
+
+/* .navbar .navLeft {
+  flex: 30%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  color: var(--text-color);
+  padding-left: 158px;
+} */
+.navbar .navLeft {
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.navbar .navRight {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  width: 75%;
+  align-items: center;
+}
+/* .navbar .navRight ul {
+  height: 100%;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+} */
+
+.navbar a {
+  color: var(--text-color);
+  text-decoration: none;
+  margin: 20px;
+  font-size: 1.6rem;
+  display: block;
+  font-weight: 600;
+}
+
+.navbar .navRight .partner {
+  background-color: var(--text-color);
+  color: var(--primary-color);
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  padding: 13px;
+  border-radius: 40px;
+  margin: 1.5rem;
+}
+
+.responsive_nav {
+  display: none;
+}
+
+.mobile_menu {
+  display: none;
+}
+
+/* WRITE RESPONSIVE DESIGN BELOW  */
+
+@media screen and (max-width: 780px) {
+  .navLeft {
+    display: flex;
+    position: absolute;
+    top: 5px;
+    left: 30px;
+  }
+
+  .navbar .navRight {
+    display: none;
+  }
+  .navbar .navRight a {
+    color: white;
+    text-align: center;
+    padding: 32px;
+    width: 100%;
+    transition: all 0.5s ease;
+  }
+
+  .responsive_nav {
+    position: absolute;
+
+    display: block;
+    list-style: none;
+    background-color: #0f1819;
+    left: 0;
+    top: 75px;
+    transition: all 0.5s ease-out;
+    width: 100%;
+  }
+
+  .mobile_menu {
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 25px;
+
+    background-color: #0f1819;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 30px;
+  }
+
+  .partner {
+    background-color: var(--text-color);
+    color: var(--primary-color);
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    padding: 13px;
+    border-radius: 40px;
+    margin: 0 1rem 1.5rem;
+  }
+}
