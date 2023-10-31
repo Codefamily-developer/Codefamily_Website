@@ -2,8 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styles from "../styles/Navbar.module.css";
 import { FaBars, FaTimes } from "react-icons/fa";
+
 const Navbar = () => {
   const [active, setActive] = React.useState(false);
+  const isAuthenticated = true; // Replace with your authentication logic
+
   return (
     <div className={styles.navbar}>
       <div className={styles.navLeft}>
@@ -28,7 +31,11 @@ const Navbar = () => {
         <Link to="/community">
           <li>Community</li>
         </Link>
-        <button className={styles.partner}>Partner with us</button>
+        {isAuthenticated && (
+          <Link to="/partner">
+            <li>Partner with us</li>
+          </Link>
+        )}
       </ul>
       <button
         className={styles.mobile_menu}
