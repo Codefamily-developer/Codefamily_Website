@@ -16,17 +16,7 @@ function App() {
   }, []);
   return (
     <div className="App">
-      {loading ? (
-        <div className="loader">
-          <BarLoader
-            color={"#5C4CE4"}
-            loading={loading}
-            size={150}
-            aria-label="Loading Spinner"
-            data-testid="loader"
-          />
-        </div>
-      ) : (
+      { (
         <div>
           <Router>
             <Navbar />
