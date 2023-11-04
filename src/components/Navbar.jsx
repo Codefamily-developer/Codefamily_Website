@@ -19,22 +19,22 @@ const Navbar = () => {
           setActive(false);
         }}
       >
-        <Link to="/resources">
-          <li>Resources</li>
-        </Link>
-        <Link to="/events">
-          <li>Events</li>
-        </Link>
-        <Link to="/blogs">
-          <li>Blogs</li>
-        </Link>
-        <Link to="/community">
-          <li>Community</li>
-        </Link>
+        <li>
+          <Link to="/resources">Resources</Link>
+        </li>
+        <li>
+          <Link to="/events">Events</Link>
+        </li>
+        <li>
+          <Link to="/blogs">Blogs</Link>
+        </li>
+        <li>
+          <Link to="/community">Community</Link>
+        </li>
         {isAuthenticated && (
-          <Link to="/partner">
-            <li>Partner with us</li>
-          </Link>
+          <li>
+            <Link to="/partner">Partner with us</Link>
+          </li>
         )}
       </ul>
       <button
@@ -43,7 +43,7 @@ const Navbar = () => {
           setActive(!active);
         }}
       >
-        {active ? <FaTimes></FaTimes> : <FaBars />}
+        {active ? <FaTimes /> : <FaBars />}
       </button>
     </div>
   );
