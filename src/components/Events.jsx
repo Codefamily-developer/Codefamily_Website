@@ -1,8 +1,8 @@
 import React from "react";
 import { ImBullhorn } from "react-icons/im";
-
+import styles from "../styles/Blogs.module.css";
 import EventImg from "../assets/images/event.jpg";
-import styles from "../styles/Event.module.css";
+import FAQ from "./FAQ"; // Import the FAQ component at the beginning of the file
 
 const Events = () => {
   return (
@@ -33,6 +33,9 @@ const Events = () => {
         <div>
           <a>Ongoing Event</a>
         </div>
+
+        {/* Rendering the FAQ component here */}
+        <FAQ />
       </div>
     </div>
   );
